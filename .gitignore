@@ -1,0 +1,5 @@
+ignore_me.txt # ignore file 
+app/ignored/ # ignore folder 
+*.py[cdo] # ignore file with extensions pyc/pyd/pyo 
+app/**/*.log # ignore logs in app and its subdirectories 
+!app/main.log # excluding app/main.log 
